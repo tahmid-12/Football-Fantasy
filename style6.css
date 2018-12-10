@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+    background-image: url(image/grass.jpg); 
+}
+.box{
+    width: 800px;
+    height: 400px;
+    float: left;
+    margin-top: 115px;
+    margin-left: 140px;
+    background-color: white;
+    border: 1px solid blue;
+}
+.inputbox{
+    width: 300px;
+    margin-left:280px;
+}

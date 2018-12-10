@@ -1,0 +1,76 @@
+body{
+    background-image: url(image/grass.jpg);
+    /*overflow-y: visible;*/
+    position: relative;
+}
+#header_container{
+    background: rgb(0,0,139);
+    position: fixed;
+    z-index: 1111;
+    /*margin-left: 10px;*/
+    grid-column-gap: 0px;
+    width: 1800px;
+}
+.leagueLogo{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-size: 35px;
+}
+/**/
+.nav-link{
+    width: 140px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.nav{
+    padding-left: 350px;
+}
+/**/
+.match{
+    width: 70%;
+    height: 900px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    /*border: 1px solid blue;*/
+}
+.td_height{
+    height: 120px;
+}
+/**/
+.standing{
+    width: 70%;
+    height: 1150px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid black;
+}
+.td_font{
+    font-weight: 5;
+    font-family: 'Noto Serif', serif;
+}
+/**/
+.statistics{
+    width: 70%;
+    height: 1480px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid black;
+}
+/**/
+.player{
+    width: 70%;
+    height: 1400px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid black;
+
+}

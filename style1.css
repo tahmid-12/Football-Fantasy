@@ -1,0 +1,80 @@
+body{
+    background-image: url(image/grass.jpg);
+    /*overflow-y: visible;
+    position: relative;*/
+}
+#header_container{
+    background: rgb(176,48,96);
+    position: fixed;
+    z-index: 1111;
+    /*margin-left: 10px;*/
+    grid-column-gap: 0px;
+    width: 1800px;
+}
+.leagueLogo{
+    font-family: 'Bree Serif', serif;
+    color: white;
+    font-size: 35px;
+}
+/**/
+.nav-link{
+    width: 140px;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+.nav{
+    padding-left: 350px;
+}
+/**/
+.match{
+    width: 70%;
+    height: 1150px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    background-image: url(image/cup.jpg);
+    /*border: 1px solid blue;*/
+}
+.td_height{
+    height: 120px;
+}
+/**/
+.standing{
+    width: 90%;
+    height: 1300px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 65px;
+    background-color: white;
+    border: 1px solid black;
+    background-image: url(image/cup.jpg);
+}
+.td_font{
+    font-weight: 5;
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+    color: 	#FF1493;
+}
+/**/
+.statistics{
+    width: 70%;
+    height: 1480px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid black;
+}
+/**/
+.player{
+    width: 70%;
+    height: 1400px;
+    float: left;
+    margin-top: 123px;
+    margin-left: 180px;
+    background-color: white;
+    border: 1px solid black;
+
+}
